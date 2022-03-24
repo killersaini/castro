@@ -1,0 +1,413 @@
+.top-header-icons>i {
+    padding-left: 10px;
+    color: white;
+    transition: all 0.3s;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.top-header-icons>i:hover {
+    color: #f0542d;
+    cursor: pointer;
+}
+
+.top-header-button>a {
+    text-decoration: none;
+    color: white;
+    padding: 17px 30px;
+    background-color: #f0542d;
+    transition: all 0.3s;
+}
+
+.top-header-button>a:hover {
+    background-color: #f0542daa;
+}
+
+.header-details-icon>i {
+    font-size: 25px;
+    color: #f0542d;
+    font-weight: bold;
+    padding: 9px 12px;
+    border: #f0542d solid 1px;
+    border-radius: 100%;
+}
+
+.header-details-contact>a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.652);
+}
+
+.menu {
+    padding: 10px 0;
+    background-color: #f0542d;
+}
+
+.navbar-light .navbar-nav {
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-item {
+    padding-right: 20px;
+}
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.sub-header-menu {
+    position: absolute;
+    width: 250px;
+    background-color: white;
+    padding: 20px 0;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.193);
+    margin-top: 35px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    border-bottom: #f0542dde solid 3px;
+    z-index: -1;
+}
+
+.sub-item {
+    padding: 10px 15px;
+}
+
+.sub-link {
+    color: rgba(0, 0, 0, 0.508);
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.sub-link:hover {
+    color: #f0542d;
+}
+
+.navbar-light .navbar-nav .nav-item:hover .sub-header-menu {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 10px;
+}
+
+.carousel-box {
+    margin-top: -25rem;
+    text-align: start;
+    padding: 40px 0;
+}
+
+.carousel-item>img {
+    height: 95vh;
+}
+
+.carousel-header>h1 {
+    font-size: 55px;
+}
+
+.carousel-button>a {
+    color: white;
+    padding: 15px 50px;
+    border-radius: 50px;
+    border: white solid 1px;
+    transition: all 0.3s;
+}
+
+.carousel-button>a:hover {
+    background-color: #f0542d;
+    border: #f0542d solid 1px;
+}
+
+.services {
+    padding: 80px 0;
+}
+
+.services-header>h1 {
+    color: #f0542d;
+    padding-bottom: 55px;
+}
+
+.services-box {
+    overflow: hidden;
+}
+
+.services-image {
+    overflow: hidden;
+}
+
+.services-image>img {
+    transition: all 0.5s;
+}
+
+.services-box:hover .services-image>img {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.services-button>a {
+    color: rgba(0, 0, 0, 0.741);
+    text-decoration: underline rgba(0, 0, 0, 0.741);
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.services-header>h5 {
+    transition: all 0.3s;
+}
+
+.services-header>h5:hover {
+    color: #f0542d;
+}
+
+.services-box:hover .services-button>a {
+    color: #f0542d;
+}
+
+.reviews {
+    background-image: linear-gradient( 180deg, rgba(0, 0, 0, 0.693), rgba(0, 0, 0, 0.693)), url("./images/funfact-bg.jpg");
+    padding: 80px 0;
+    background-size: cover;
+}
+
+.about-us {
+    padding: 100px 0;
+}
+
+.about-us-box {
+    margin-top: 65px;
+}
+
+.about-us-header>h5 {
+    color: #f0542d;
+    font-weight: 600;
+}
+
+.about-us-header>h1 {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.about-us-summary>p {
+    font-size: 20px;
+}
+
+.about-us-button>a {
+    color: white;
+    padding: 15px 45px;
+    background-color: #f0542d;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.about-us-button>a:hover {
+    background-color: rgba(0, 0, 0, 0.761);
+}
+
+.about-us-1-box {
+    overflow: hidden;
+    width: 100%;
+}
+
+.about-us-image {
+    overflow: hidden;
+}
+
+.about-us-image>img {
+    transition: all 0.5s;
+    width: 100%;
+}
+
+.about-us-image>img:hover {
+    transform: scale(1.1);
+}
+
+.projects {
+    padding: 100px 0;
+}
+
+.projects-header>h1 {
+    color: #f0542d;
+}
+
+.projects-box {
+    margin-top: 85px;
+}
+
+.projects-image>img {
+    width: 100%;
+}
+
+.projects-summary>p {
+    font-size: 22px;
+}
+
+.projects-button>a {
+    color: #f0542d;
+    text-decoration: #f0542d underline;
+    transition: all 0.3s;
+}
+
+.projects-button>a:hover {
+    color: black;
+    text-decoration: black underline;
+}
+
+.jobs {
+    padding: 100px 0;
+}
+
+.jobs-header>h2 {
+    margin-top: 75px;
+}
+
+.jobs-box {
+    width: 100%;
+    border-top: rgba(0, 0, 0, 0.275) solid 1px;
+    padding: 25px 0;
+}
+
+.jobs-sub-box {
+    border-left: solid black 3px;
+}
+
+.jobs-sub-box-link>a {
+    color: rgba(0, 0, 0, 0.789);
+    font-size: 22px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.jobs-sub-box-link>a:hover {
+    color: #f0542d;
+}
+
+.jobs-image>img {
+    width: 100%;
+}
+
+.testimonials {
+    padding: 100px 0;
+    background-image: url("./images/testimonial.jpg");
+}
+
+.testimonials-box {
+    width: 80%;
+}
+
+.testimonials-image>img {
+    border-radius: 100%;
+}
+
+.testimonials-summary>p {
+    font-size: 25px;
+}
+
+.blog {
+    padding: 100px 0;
+}
+
+.blog-header>h4 {
+    transition: all 0.3s;
+}
+
+.blog-header>h4:hover {
+    color: #f0542d;
+    cursor: pointer;
+}
+
+.blog-image {
+    position: relative;
+}
+
+.blog-image>img {
+    width: 100%;
+}
+
+.blog-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+}
+
+.blog-box:hover .blog-image::before {
+    background-color: rgba(0, 0, 0, 0.494);
+    cursor: pointer;
+}
+
+.brand-logo {
+    padding: 60px 0;
+}
+
+.brand-logo-image {
+    padding: 0 80px;
+}
+
+.top-footer-summary>p {
+    font-size: 17px;
+    line-height: 2;
+}
+
+.footer-menu>.footer-item>.footer-link {
+    color: white;
+}
+
+.top-footer {
+    background-color: black;
+    border-bottom: gray solid 1px;
+}
+
+.footer-item {
+    padding: 5px 0;
+}
+
+.footer-item .footer-link {
+    color: white;
+}
+
+.footer-link:hover {
+    color: #f0542d;
+}
+
+.footer-link {
+    transition: all 0.3s;
+}
+
+.footer-link:hover {
+    color: #f0542d;
+}
+
+.footer {
+    background-color: black;
+}
+
+.offcanvas-body {
+    background-color: #f0542d;
+}
+
+.canvas-item {
+    padding: 10px 0;
+}
+
+.canvas-link {
+    color: white;
+}
+
+.card {
+    background-color: #f0542d;
+}
+
+.card-title>a {
+    color: white;
+}
+
+.card-link {
+    color: white;
+}
